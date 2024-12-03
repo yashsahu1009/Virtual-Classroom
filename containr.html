@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigma 5.0: Placement Preparation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <style>
+        body {
+            /* Adjust this value to control zoom (110% for slight zoom in) */
+        }
+
+        .highlight-text {
+            color: #4c57d6;
+        }
+
+        .btn-enroll {
+            background-color: #ff6b00;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .btn-enroll:hover {
+            background-color: #e65a00;
+        }
+
+        .image-section img {
+            height: 50%;
+            width: 80%;
+            object-fit: cover;
+        }
+
+        .feature-icons {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .feature-icons div {
+            text-align: center;
+        }
+
+        .left-section {
+            padding-left: 20px;
+            color: #000000;
+        }
+
+        .mt-4.list-unstyled {
+            line-height: 1.8;
+        }
+
+        .mt-4.list-unstyled li {
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .course-card {
+            transition: transform 0.3s;
+        }
+
+        .course-card:hover {
+            transform: scale(1.05);
+        }
+
+        .companies {
+            position: relative;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* First Slanted Layer */
+        .companies-slope-1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 15%;
+            /* Adjust height to 40% */
+            background: #c1c8f9;
+            /* First color */
+            clip-path: polygon(-50% 0, 110% 0, 0 100%, -10% 100%);
+            z-index: -3;
+        }
+
+        /* Second Slanted Layer */
+        .companies-slope-2 {
+            position: absolute;
+            top: 7%;
+            /* Adjust top to start immediately after the first layer */
+            left: 0;
+            width: 100%;
+            height: 15%;
+            /* Adjust height to 20% */
+            background: #e3e7fc;
+            /* Second color */
+            clip-path: polygon(-10% 0, 110% 0, 0 100%, -50% 50%);
+            z-index: -2;
+        }
+
+        /* Third Slanted Layer */
+        .companies-slope-3 {
+            position: absolute;
+            top: 7%;
+            /* Adjust top to start immediately after the second layer */
+            left: 0;
+            width: 100%;
+            height: 10%;
+            /* Adjust height to 10% */
+            background: #eff1fd;
+            /* Third color */
+            clip-path: polygon(-10% 0, 110% 0, 0 100%, -10% 100%);
+            z-index: -1;
+        }
+
+        .companies img {
+            margin: 20px;
+            max-width: 200px;
+            height: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        h5 {
+            margin-top: 20px;
+        }
+
+        .feature-box {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-box h4 {
+            font-weight: 600;
+        }
+
+        .check-icon {
+            color: #28a745;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5 pt-3">
+        <div class="row align-items-center">
+            <!-- Left Section -->
+            <div class="col-md-6 text-md-start text-center left-section">
+                <h1>
+                    <span class="highlight-text">Sigma 5.0 :</span> Complete Placement
+                    Preparation!
+                </h1>
+                <ul class="mt-4 list-unstyled">
+                    <li>
+                        <i class="bi bi-camera-video"></i> DSA + Development +
+                        Quant-Aptitude
+                    </li>
+                    <li>
+                        <i class="bi bi-people"></i> Individual Doubt Solving TAs &
+                        Community
+                    </li>
+                    <li>
+                        <i class="bi bi-journal"></i> Access to PYQs of Top Companies
+                    </li>
+                </ul>
+                <button class="btn-enroll mt-4">Enroll Now ➤</button>
+            </div>
+
+            <!-- Right Section -->
+            <div class="col-md-6 text-center">
+                <!-- Image Placeholder -->
+                <div class="image-section">
+                    <img src="banner_top_image.png" alt="Profile" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 pt-5 pb-5" style="background-color: #f8f8fd">
+        <h1 class="text-center mb-4">Course Comparison</h1>
+
+        <div class="row">
+            <!-- Alpha Plus 4.0 Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card course-card shadow-lg">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="text-center">Alpha Plus 4.0</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Complete DSA Batch</li>
+                            <li class="list-group-item">Java Language</li>
+                            <li class="list-group-item">Data Structures & Algorithms</li>
+                            <li class="list-group-item">Advanced DSA</li>
+                            <li class="list-group-item">50 Live Practice Sessions</li>
+                            <li class="list-group-item">Quant & Aptitude Preparation</li>
+                            <li class="list-group-item">Individual Doubt Support</li>
+                            <li class="list-group-item">Certificate of Completion</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col"><strong>Duration:</strong> 4 months</div>
+                            <div class="col">
+                                <strong>Start Date:</strong> 28th Oct, 2024
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Sigma 5.0 Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card course-card shadow-lg">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="text-center">Sigma 5.0</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">Complete DSA + Web Development</li>
+                            <li class="list-group-item">Everything in Alpha Plus 4.0</li>
+                            <li class="list-group-item">Project Development</li>
+                            <li class="list-group-item">MERN Stack</li>
+                            <li class="list-group-item">Frontend & React</li>
+                            <li class="list-group-item">Backend & Database</li>
+                            <li class="list-group-item">
+                                Multiple Project Implementations
+                            </li>
+                            <li class="list-group-item">2 Certificates of Completion</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col"><strong>Duration:</strong> 8.5 months</div>
+                            <div class="col">
+                                <strong>Start Date:</strong> 28th Oct, 2024
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Comparison Button -->
+        <div class="text-center mt-4">
+            <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#comparisonModal">
+                Detailed Comparison
+            </button>
+        </div>
+    </div>
+
+    <!-- Comparison Modal -->
+    <div class="modal fade" id="comparisonModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Detailed Course Comparison</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Comparison Table -->
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Alpha Plus 4.0</th>
+                                <th>Sigma 5.0</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Duration</td>
+                                <td>4 months</td>
+                                <td>8.5 months</td>
+                            </tr>
+                            <tr>
+                                <td>Certification</td>
+                                <td>1 Certificate</td>
+                                <td>2 Certificates</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Companies Section -->
+    <section class="companies position-relative pt-5">
+        <!-- First Slanted Layer -->
+        <div class="companies-slope-1"></div>
+        <!-- Second Slanted Layer -->
+        <div class="companies-slope-2"></div>
+        <!-- Third Slanted Layer -->
+        <div class="companies-slope-3"></div>
+        <h2>Thousands of students achieved their <span class="text-primary">dream job at</span></h2>
+        <div class="d-flex flex-wrap justify-content-center align-items-center mt-4">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/ec5be16b046b62a2a860b67f9dc55b86.png"
+                alt="Amazon">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/ee17a1d06126f8bfc5444ad666e8ba21.png"
+                alt="Google">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/9e4198383730a6e7036b2c7cf50554d0.png"
+                alt="Microsoft">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/5a5a608278ba2b74aff5fb081f7df81c.png"
+                alt="Goldman Sachs">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/02fb63567e1b107d549d5d15e922424b.png"
+                alt="PayPal">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/4d6e24add7d7c5d618aeef1795dba038.png"
+                alt="Samsung">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/622a116daf32436d38271cd6c49ee3af.png"
+                alt="Salesforce">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/cfe53c7856b98c0bf010ebcfc8cbfa29.png"
+                alt="NetApp">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/91cb8fef8fe424a1ae2406aa58a380d8.png"
+                alt="Hitachi">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/689bf09a2c1040423fba7a8db0248211.png"
+                alt="JPMorgan">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/b5070669b92945ffb20fadc3ea552d16.png"
+                alt="IBM">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/0f683ab474c5a018baa3bdd53330c9ae.png"
+                alt="Dell">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/e24ce5f542c45a73c05172d9c4f38e2e.png"
+                alt="Deloitte">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f271b7c4e1a5c41745580804a2b2b458.png"
+                alt="KPMG">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/2c6580da38af7ceff65addfda59f06b9.png"
+                alt="ISRO">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/1da11f6f0c244abc5abffc0556730e91.png"
+                alt="Mercedes-Benz">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f226d6ddcb4f38c2c23f02008bbdf737.png"
+                alt="EY">
+            <img src="https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/9a47085894be9870158c9ad4e23c1a24.png"
+                alt="Airtel">
+                </section>
+                <div class="container py-5 pt-5 pt-5" style="background-color: #F8F8FD;">
+                    <h2 class="text-center mb-4">
+                        What will you <span class="text-primary">learn</span> in Sigma 5.0?
+                    </h2>
+                    <div class="row gy-4">
+                        <!-- Data Structures & Algorithms -->
+                        <div class="col-md-4">
+                            <div class="feature-box  ">
+                                <h4 class="mb-3">Data Structures & Algorithms</h4>
+                                <ul class="list-unstyled text-md-start ">
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Java Language</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Data Structures & Algorithms</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Advanced DSA</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> 50 Live Practice Sessions with MAANG Engineers: alte
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Individual doubt support: TA</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Certificate of Completion</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Duration: 4 months</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Full Stack Web Development -->
+                        <div class="col-md-4">
+                            <div class="feature-box">
+                                <h4 class="mb-3">Full Stack Web Development</h4>
+                                <ul class="list-unstyled text-md-start">
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Complete MERN Stack</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Frontend & React</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Backend & Database</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Git & Github</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Multiple Industry Grade Projects</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Individual doubt support: TA</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Certificate of Completion</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Duration: 4.5 Months</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Quant & Aptitude Preparation -->
+                        <div class="col-md-4">
+                            <div class="feature-box">
+                                <h4 class="mb-3">Quant & Aptitude Preparation</h4>
+                                <ul class="list-unstyled text-md-start">
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Topic wise Selected Qs</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Crisp Video Explanation</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Practice Qs with Solutions</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> TCS NQT: 10 Sample Papers</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Strategy for TCS, Wipro, Infosys Online Test</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Designed for Tech Placements</li>
+                                    <li><i class="bi bi-check-circle-fill check-icon"></i> Duration: 15 Days</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Bootstrap JS -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
